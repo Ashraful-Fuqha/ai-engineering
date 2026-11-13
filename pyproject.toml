@@ -1,0 +1,12 @@
+[project]
+name = "ai-engineering"
+version = "0.1.0"
+description = "Applied AI Engineering: Foundations to Autonomous Agents"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = []
+
+[tool.uv.workspace]
+members = [
+    "projects/*",
+]

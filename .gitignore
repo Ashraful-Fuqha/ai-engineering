@@ -1,0 +1,20 @@
+# Python & bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Virtual environments
+.venv/
+
+# Secrets & credentials (NEVER COMMIT)
+.env
+*.env
+*.key
+
+# Logs, Databases & Telemetry
+*.db
+*.sqlite3
+logs/
+reports/
+*.log
